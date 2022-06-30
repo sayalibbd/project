@@ -1,0 +1,37 @@
+{
+  "employeeLists": [
+    {
+      "sr.no": 1,
+      "firstname": "Sayali",
+      "lastname": "Pharne",
+      "role":"Associate Software Engineer",
+      "city":"Sangli",
+      "email":"sayali@gmail.com",
+      "address":"Near Marathi Mulanchi Shala javl Nagthane",
+      "phone":"3467905637"
+
+    },
+    {
+      "sr.no": 2,
+      "firstname": "Dipanjali",
+      "lastname": "Pise",
+      "role":"Associate Software Engineer",
+      "city":"Sangli",
+      "email":"dipanjali@gmail.com",
+      "address":"Ankalkhop",
+      "phone":"6785489032"
+
+    }
+
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

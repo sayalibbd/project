@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    height: 10vh;
+}
+.header{
+    width:4vw;
+     height:7vh;
+    }
+
+.subtitle{
+
+}
+
+.bootbackground{
+    background-color: #e9ecef;
+    height:calc(100vh - 10vh);
+    display: flex;
+    // justify-content: center;
+    // align-items: center;
+}
+
+.tablewrap, .searchbg{
+    background-color:#fff;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.searchbtn{
+    height: 5vh;
+    margin-top: 34px;
+}
+
+
+@media screen and (max-width: 540px) {
+    .header {
+        width: 15vw;
+        height: 7vh;
+    }
+}
+
+// @media screen and (max-width: 912px) {
+//     .header {
+//         width: 10vw;
+//         height: 7vh;
+//     }
+// }
+
+@media screen and (max-width: 1024px) {
+    .header {
+        width: 9vw;
+        height: 7vh;
+    }
+}
